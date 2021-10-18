@@ -1,0 +1,10 @@
+@import "reset";
+@import "settings/colors";
+@import "settings/fonts";
+
+* {
+  box-sizing: border-box;
+}
+#root {
+  font-family: $font-base;
+}
