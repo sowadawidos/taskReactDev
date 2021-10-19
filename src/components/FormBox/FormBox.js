@@ -1,7 +1,9 @@
 import React from "react"
-import "./FormBox.scss"
-import {MyForm} from "../Form/Form";
 import Fade from "react-reveal/Fade";
+
+import "./FormBox.scss"
+
+import {MyForm} from "../Form/Form";
 
 export const FormBox = ({getEmail, emailValidation, isLoading}) => {
     return (

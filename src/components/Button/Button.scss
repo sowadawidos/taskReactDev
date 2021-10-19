@@ -13,6 +13,7 @@
   font-size: 18px;
   font-weight: 600;
   transform: scale(1.00);
+
   &:hover {
     transform: scale(1.05);
     background-color: limegreen;
@@ -20,6 +21,7 @@
     font-family: $font-base;
   }
 }
+
 @media (max-width: 650px) {
   .form__button {
     margin-top: 20px;

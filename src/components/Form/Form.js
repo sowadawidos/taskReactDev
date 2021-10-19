@@ -1,8 +1,10 @@
 import React from "react"
 import {Form, Field} from 'react-final-form'
-import "./Form.scss"
-import {Button} from "../Button/Button";
 import ReactLoading from 'react-loading';
+
+import "./Form.scss"
+
+import {Button} from "../Button/Button";
 
 export const MyForm = ({getEmail, emailValidation, isLoading}) => {
     const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));

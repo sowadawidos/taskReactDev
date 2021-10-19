@@ -1,5 +1,7 @@
 import React from "react"
+
 import "./Main.scss"
+
 import {FormBox} from "../FormBox/FormBox";
 
 export const Main = ({getEmail, emailValidation, isLoading}) => {

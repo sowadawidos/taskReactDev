@@ -1,5 +1,7 @@
 import React, {useState, useEffect} from "react"
+
 import "./scss/main.scss";
+
 import {Main} from "./components/Main/Main";
 
 const axios = require('axios');
