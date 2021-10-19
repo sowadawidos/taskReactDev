@@ -1,0 +1,29 @@
+@import "src/scss/main";
+
+.form__button {
+  margin-top: 15px;
+  padding: 15px 35px;
+  border-radius: 15px;
+  border: none;
+  background-color: $color-white;
+  cursor: pointer;
+  color: #000000;
+  transition: 0.5s;
+  font-family: $font-base;
+  font-size: 18px;
+  font-weight: 600;
+  transform: scale(1.00);
+  &:hover {
+    transform: scale(1.05);
+    background-color: limegreen;
+    color: white;
+    font-family: $font-base;
+  }
+}
+@media (max-width: 650px) {
+  .form__button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    font-size: 16px;
+  }
+}
